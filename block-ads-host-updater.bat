@@ -13,7 +13,7 @@ START /wait wget --referer="http://www.google.com" --user-agent="Mozilla/5.0 (Wi
 START /wait gzip -d hostB.txt.gz
 REM gzip -d hostC.txt.gz
 
-copy hostA.txt+hostB.txt+hostC.txt+adobe+google host0.txt
+copy hostA.txt+hostB.txt+hostC.txt+personaliplist.txt host0.txt
 far host0.txt host1.txt 0.0.0.0 127.0.0.1
 cat host1.txt | cut -d# -f1 >>host2.txt
 cat host2.txt | cut -d"<" -f1 >>host3.txt
