@@ -1,0 +1,1 @@
+# aggiungi qui gli ip che vuoi reindirizzare a 127.0.0.1, uno per linea: formati accettati "127.0.0.1 google.com" "google.com"
