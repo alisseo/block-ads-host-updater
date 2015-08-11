@@ -1,15 +1,34 @@
 # block-ads-host-updater
-download ads ip list frome some online service and put in the HOST file
+portable download ads ip list frome some online service and put in the HOST file
 
-Attualmente questo programma è composto da uno script in batch funzionante solo su ambiente Windows con l'ausilio di alcuni tool:
+Eseguendo questo codice sul tuo pc andrai a modificare il file host (https://en.wikipedia.org/wiki/Hosts_%28file%29) facendo in modo che durante la navigazione on-line la maggior parte di siti spam saranno bloccati, ed otterrete una navigazione molto piu' veloce.
 
-cat.exe
-cut.exe
+FUNZIONAMENTO:
+doppio click block-ads-host-updater.bat
+
+processo:
+1-download ads ip list frome some services
+2-join and cleaning the ip list
+3-add personal ip list (optional)
+4-make the host file
+5-ask admin rights
+6-upgrade the host file in system
+
+Attualmente questo programma è composto da uno script in batch funzionante solo su sistemi Windows supportati con l'ausilio di alcuni tool:
+
+cat.exe, cut.exe, sort.exe, uniq.exe
+http://unxutils.sourceforge.net/
+
 diff.exe
+https://code.google.com/p/sharpdiff/downloads/detail?name=diff.exe&can=2&q=
+
 far.exe
+http://www.f2ko.de
+
 gzip.exe
-sort.exe
-uniq.exe
+http://gnuwin32.sourceforge.net/packages/gzip.htm (Binaries)
+
 wget.exe
+http://gnuwin32.sourceforge.net/packages/wget.htm (Binaries)
 
 Ognuno ha la propria licenza di utilizzo, rimando sui rispettivi siti per ulteriori informazioni
