@@ -1,0 +1,17 @@
+#	
+#	host modificato con block-ads-host-updater.bat
+#	batch realizzato da alisseo
+#	fonte: https://github.com/alisseo/block-ads-host-updater
+#
+#	ads ip-list prelevate da:
+#	http://winhelp2002.mvps.org
+#	http://someonewhocares.org
+#	
+#	Va a loro un elevato ringraziamanto per i continui aggiornamnti.
+#	al termine del batch si consiglia di riavviare il PC per
+#	applicare le modifiche.
+#	
+
+127.0.0.1 localhost
+::1 localhost #[IPv6]
+
