@@ -4,7 +4,7 @@ portable download ads ip list frome some online service and put in the HOST file
 *************************************************************
 
 Eseguendo questo codice sul tuo pc andrai a modificare il file host (https://en.wikipedia.org/wiki/Hosts_%28file%29) facendo in modo che durante la navigazione on-line la maggior parte di siti spam saranno bloccati, ed otterrete una navigazione molto piu' veloce.
-Collegarsi ai relativi siti e scaricare,e scompattare quando necessario, i file necessari al funzionamento nella cartella master del programma.
+
 
 *************************************************************
 
@@ -28,7 +28,7 @@ processo:
 
 *************************************************************
 
-Attualmente questo programma è composto da uno script in batch funzionante solo su sistemi Windows supportati con l'ausilio di alcuni tool:
+Attualmente questo programma è composto da uno script in batch funzionante solo su sistemi Windows supportati con l'ausilio di alcuni tool: Collegarsi ai relativi siti e scaricare,e scompattare quando necessario, i file necessari al funzionamento nella cartella master del programma
 
 cat.exe, cut.exe, sort.exe, uniq.exe
 http://unxutils.sourceforge.net/
