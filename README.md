@@ -4,6 +4,7 @@ portable download ads ip list frome some online service and put in the HOST file
 *************************************************************
 
 Eseguendo questo codice sul tuo pc andrai a modificare il file host (https://en.wikipedia.org/wiki/Hosts_%28file%29) facendo in modo che durante la navigazione on-line la maggior parte di siti spam saranno bloccati, ed otterrete una navigazione molto piu' veloce.
+Testato solo su Windows Seven e XP (usare versione block-ads-host-updaterXP)
 
 
 *************************************************************
