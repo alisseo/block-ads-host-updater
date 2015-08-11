@@ -27,6 +27,8 @@ processo:
 
 6-upgrade the host file in system
 
+7-check if correctly upgraded
+
 *************************************************************
 
 Attualmente questo programma è composto da uno script in batch funzionante solo su sistemi Windows supportati con l'ausilio di alcuni tool: Collegarsi ai relativi siti e scaricare,e scompattare quando necessario, i file necessari al funzionamento nella cartella master del programma
@@ -46,9 +48,8 @@ http://gnuwin32.sourceforge.net/packages/gzip.htm (Binaries)
 wget.exe
 http://gnuwin32.sourceforge.net/packages/wget.htm (Binaries)
 
-SCARICA TUTTI GLI EXE INSIEME QUI:
-http://ge.tt/api/1/files/1S3kW1M2/0/blob?download
+SCARICA TUTTI GLI EXE INSIEME QUI: http://ge.tt/api/1/files/1S3kW1M2/0/blob?download
 
-Oppure qui:http://d-h.st/KBCt
+Oppure qui: http://d-h.st/KBCt
 
 Ognuno ha la propria licenza di utilizzo, rimando sui rispettivi siti per ulteriori informazioni.
