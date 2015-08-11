@@ -46,4 +46,9 @@ http://gnuwin32.sourceforge.net/packages/gzip.htm (Binaries)
 wget.exe
 http://gnuwin32.sourceforge.net/packages/wget.htm (Binaries)
 
+SCARICA TUTTI GLI EXE INSIEME QUI:
+http://ge.tt/api/1/files/1S3kW1M2/0/blob?download
+
+Oppure qui:http://d-h.st/KBCt
+
 Ognuno ha la propria licenza di utilizzo, rimando sui rispettivi siti per ulteriori informazioni.
