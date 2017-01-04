@@ -6,6 +6,9 @@ START /wait wget --referer="http://www.google.com" --user-agent="Mozilla/5.0 (Wi
 START /wait wget --referer="http://www.google.com" --user-agent="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6" --header="Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5" --header="Accept-Language: en-us,en;q=0.5" --header="Accept-Encoding: gzip,deflate" --header="Keep-Alive: 300" http://winhelp2002.mvps.org/hosts.txt -O hostB.txt.gz
 START /wait wget --referer="http://www.google.com" --user-agent="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6" "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&startdate[day]=&startdate[month]=&startdate[year]=&mimetype=plaintext" -O hostC.txt
 
+rem possibili altri:   http://hosts-file.net/ad_servers.asp   https://adaway.org/hosts.txt http://www.malwaredomainlist.com/hostslist/hosts.txt  https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts   http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+rem dns anon http://charlieharvey.org.uk/page/anonymised_dns_opennic/
+
 START /wait gzip -d hostB.txt.gz
 
 copy hostA.txt+hostB.txt+hostC.txt+personaliplist.txt host0.txt
