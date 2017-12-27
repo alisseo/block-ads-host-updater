@@ -16,14 +16,23 @@ click block-ads-host-updater.bat
 processo:
 
 0-backup current host file if exist
+
 1-download ads domain list frome some services
+
 2-join and cleaning the domain list
+
 3-add personal domain list (optional if already put in "personaliplist.txt")
+
 4-make the host file
+
 5-check if different from the last one
+
 6-ask admin rights
+
 7-upgrade the host file in system
+
 8-check if correctly upgraded
+
 
 *************************************************************
 
