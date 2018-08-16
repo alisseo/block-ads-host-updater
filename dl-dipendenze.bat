@@ -37,3 +37,4 @@ copy diff.exe ..\
 cd ..
 del /f/s/q temp
 exit
+
