@@ -3,11 +3,9 @@ portable download ads-domain-list frome some online service and put in the HOST 
 
 *************************************************************
 
-FUNZIONAMENTO:
+process:
 
-block-ads-host-updater.bat
-
-descrizione processo:
+run  block-ads-host-updater.bat
 
 0-backup current hosts file if exist
 
