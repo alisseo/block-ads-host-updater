@@ -9,9 +9,9 @@ wget --referer="http://www.google.com" --user-agent="Mozilla/5.0 (Windows; U; Wi
 
 gzip -d hostB.txt.gz
 rm hosts
-cat hostA.txt hostB.txt hostC.txt | sed 's/127\.0\.0\.1/0\.0\.0\.0/g' - | cut -d# -f1 - | cut -d"<" -f1 - | cut -d"&" -f1 - | sort - | uniq - | grep "0\.0\.0\.0" - >>hostADS
+cat hostA.txt hostB.txt hostC.txt personaliplist.txt | sed 's/127\.0\.0\.1/0\.0\.0\.0/g' - | cut -d# -f1 - | cut -d"<" -f1 - | cut -d"&" -f1 - | sort - | uniq - | grep "0\.0\.0\.0" - >>hostADS
 cat hostTop hostADS>>hosts
 rm hostA.txt hostB.txt hostC.txt hostB.txt.gz hostADS
+sudo cp /etc/hosts /etc/hosts-bkp
 sudo cp hosts /etc/hosts
-paplay ~/bin/beep.ogg
 exit
