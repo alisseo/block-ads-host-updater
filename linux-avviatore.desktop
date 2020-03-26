@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Aggiorna hosts ads
+Icon=utilities-terminal
+Exec=./linux-dl.sh
+Categories=Application;
+Icon=
